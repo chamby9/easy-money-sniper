@@ -1,1 +1,4 @@
-SGVsbG8gV29ybGQ=
+{
+  "content": "SGVsbG8gV29ybGQ=",
+  "encoding": "base64"
+}
