@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { BasketballIcon } from './resources/icons/basketball';
+import { KEVIN_DURANT_QUOTES } from './resources/constants/quotes';
 
 export default function NotFound() {
   return (
@@ -8,11 +10,7 @@ export default function NotFound() {
         <div className="relative">
           <h1 className="text-9xl font-black text-white opacity-20">404</h1>
           <div className="absolute inset-0 flex items-center justify-center">
-            <svg className="w-32 h-32 text-white" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/>
-              <path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/>
-              <path d="M12 8c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/>
-            </svg>
+            <BasketballIcon />
           </div>
         </div>
         
@@ -30,7 +28,7 @@ export default function NotFound() {
             </Link>
           </Button>
           <p className="text-sm text-white/60">
-            &quot;Hard work beats talent when talent fails to work hard&quot; - KD
+            &quot;{KEVIN_DURANT_QUOTES.NOT_FOUND}&quot; - KD
           </p>
         </div>
       </div>
