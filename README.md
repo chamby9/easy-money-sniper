@@ -1,1 +1,3 @@
-I have successfully created your repository 'easy-money-sniper' and initialized it with a README. However, I'm having trouble updating the README content through the API. You can find your repository at: https://github.com/chamby9/easy-money-sniper
+# EasyMoneySniper
+
+A modern investment tracking platform.
